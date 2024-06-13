@@ -1,9 +1,10 @@
 # VehicleRentalSystem
-Vehicle Class Hierarchy
- - Defined a base class "Vehicle" with properties and abstract methods for calculating DailRental, Base Insurance and Daily Insurance.
- - Derived classes "Car", "Motorcycle" and "CargoVan" that implement the methods according to the busness rules.
-Invoice Class
- - The class contains properties for rental details and a method to calculate, generate and display the invoice.
-Main Program
- - Sets up sample data and initializes the "Invoice" object.
- - Calls the "GenerateInvoice" method to display the invoice on the concole.
+Vehicle Class Hierarchy: A base class called "Vehicle" was defined, complete with properties and abstract methods for calculating daily insurance, base insurance, and daily rental rates.
+ - "Car", "Motorcycle", and "CargoVan" are derived classes that implement the methods according to the business rules.
+
+Invoice Class: 
+ - This class has attributes for rental information along with an algorithm to create, calculate, and display the invoice.
+
+Main Program: 
+ - Initializes the "Invoice" object and sets up sample data.
+ - To display the invoice, calls the "GenerateInvoice" .
